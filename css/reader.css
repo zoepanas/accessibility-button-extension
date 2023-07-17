@@ -1,0 +1,53 @@
+body{
+    position: relative;
+}
+
+#hor_bar{
+    position: fixed;
+    pointer-events: none;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    width: 100vw;
+    height: 3px;
+    background: linear-gradient(to right, red 0%, red 30%, transparent 30%, transparent 100%);
+}
+
+#ver_bar{
+    position: fixed;
+    pointer-events: none;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    width: 3px;
+    height: 100vh;
+    background: linear-gradient(to bottom, red 0%, red 30%, transparent 30%, transparent 100%);
+}
+
+#scroll{
+    position: fixed;
+    top: 55%;
+    left: 90%;
+}
+
+#scroll_up{
+    font-size: 50px;
+    color: red;
+    height: 30%;
+}
+
+#scroll_down{
+    font-size: 50px;
+    color: red;
+    height: 30%;
+}
+
+#keyboard_btn{
+    color: red;
+    font-size: 60px;
+}
+
+#keyboard{
+    position: fixed;
+    top: 35%;
+}
